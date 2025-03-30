@@ -33,11 +33,11 @@ label {
   margin: 0.5rem;
 }
 fieldset {
-  border: #2c3930
   border-top-width: 3px;
   border-bottom-width: 0px;
-    border-left-width: 0px;
-    border-right-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border: #2c3930 flex;
 }
 legend {
   font-size: 1.5em;
@@ -58,5 +58,26 @@ select {
   background-color: #3f4f44;
   color: #dcd7c9;
 }
-fieldset {
+textarea {
+  width: 75%;
+  height: 100px;
+  padding: 10px;
+  margin: 10px auto;
+  border-style: solid;
+  background-color: #3f4f44;
+}
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+input[type="submit"] {
+  background-color: #3f4f44;
+  color: #dcd7c9;
+  display: flex;
+  height: 60px;
+  width: 200px;
+  font-size: 20px;
+  margin: 1em auto;
+  padding: 5px 10px;
 }
